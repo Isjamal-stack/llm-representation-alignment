@@ -1,0 +1,20 @@
+# Conda environment - huge, machine-specific, never commit
+envs/
+
+# HuggingFace model cache - huge, re-downloadable
+hf_cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# SLURM job logs - optional to exclude; keep if you want them in history
+slurm-*.out
+
+# OS/editor cruft
+.DS_Store
+*.swp
+
+# Conda package cache - downloaded package archives, not source code
+conda_pkgs/
+**/conda_pkgs/

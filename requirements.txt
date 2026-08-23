@@ -1,0 +1,10 @@
+torch>=2.1
+torchaudio>=2.1
+transformers>=4.40
+datasets>=2.19
+soundfile
+librosa
+numpy
+scikit-learn
+tqdm
+pyyaml
