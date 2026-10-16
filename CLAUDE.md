@@ -21,10 +21,6 @@ a self-stitch identity check. Compute environment is now Unity HPC
 (`unity.rc.umass.edu`), a SLURM cluster. This is the FIRST real run there.
 
 ## Environment: Unity HPC specifics
-- Account details for this project: username `ijamal_umass_edu`, PI group
-  `pi_cics-ur_umass_edu`, project directory
-  `/work/pi_cics-ur_umass_edu/ijamal_umass_edu-audio-stitch` (also available
-  as `$PROJECT_DIR` once `~/.bashrc` is sourced — see `UNITY_SETUP.md`).
 - SLURM scheduler. Partitions: `gpu` (stable, for real batch jobs),
   `gpu-preempt` (fast queue, can be killed after ~2h — use for quick
   interactive debugging only), `gpu-long` (for jobs needing more time).
